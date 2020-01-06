@@ -28,3 +28,68 @@ https://learn.shayhowe.com/advanced-html-css/responsive-web-design/
 
 ## SMACSS online CSS book
   http://smacss.com/book/
+
+
+
+
+
+
+
+# Reading 2
+
+## 6 Reasons for Paired Programing
+  https://www.codefellows.org/blog/6-reasons-for-pair-programming/
+
+  1: Greater efficiency
+  2: Engaged collaboration
+  3: Learning from fellow students
+  4: Social skills
+  5: Job interview readiness
+  6: Work environment readiness 
+
+## JS and jQuery - Duckett
+
+  $(li.hot) <- find all the <li> elements with the class of hot
+  $(li.hot).addClass('complete'); $(homing beacon).method(parameter)
+
+  ### But Why JQuery?
+    1: Simple Selectors
+    2: Common Tasks in Less Code
+    3: Cross-browser Compatibility
+    4: It is adorably little
+
+  ### Random bits and bobs
+    If a method is used to get information and the jQ object holds reference to multiple elements, only the first element will be referenced. 
+
+    If a method is used to update information to a jQ object and that object holds reference to more than one element, all the elements will be updated. 
+
+    Chaining: adding multiple methods, using dot notation, to one jQ object in one line of code.
+
+    $(object).ready(function(){
+      // code goes here
+    }); 
+    ^ ready to work function. Not super clear on this one but the code block that is inside the curly brackets can be used on other pages so thats rad. 
+
+  .html() gives every element in the same new content
+  .text() same new text content
+  .replaceWith() replaces old content for new content
+  .remove() removes all elements in the matched set
+  .before() inserts contents before selected elements 
+  .after() inserts contents after selected elements 
+  .prepend() inserts contents inside the selected elements after the opening tag
+  .append() inside the selected elements before the closing tag
+  .attr() sets an attribute 
+  .removeAttr() turns the element into a hippo
+  .addClass() adds a class of spottedElephant
+  .removeClass() removes a class if the class is purpleDog
+  .css({ code }) allows for the CSS properties to be changed
+  .each() allows for code to be ran on each item in a selector set, much like a loop 
+  .on() creates an event listener
+  .stopPropagation() stops the event from bubbling up to ancestors 
+  
+
+
+
+
+
+
