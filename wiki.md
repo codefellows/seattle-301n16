@@ -129,3 +129,16 @@ align-content: flex-start | flex-end | center | stretch | space-between | space-
 
 
 
+### Reading 4 Grids
+grid-column-start: 
+grid-column-end:
+grid-column: gcs / gce
+grid-row-start:
+grid-row-end:
+grid-row: grs / gre
+grid-area: grs / gcs / gre / gce
+order: 
+grid-template-columns: % (can use px, ems, %, fr(fractions))
+grid-template-rows: % until it = 100 or repeat(#,%);
+
+
