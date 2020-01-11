@@ -142,3 +142,33 @@ grid-template-columns: % (can use px, ems, %, fr(fractions))
 grid-template-rows: % until it = 100 or repeat(#,%);
 
 
+### CheatSheet
+https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285
+
+#### Anchors
+^The - matches any string that starts with The
+end$ - matches a string that ends with end
+^The - end$ exact string match
+roar - matches any string that has the text roar in it 
+
+#### Quantifiers: 
+abc* matches a string that has ab followed by zero or more c
+abc+ matches a string that has ab followed by one or more c
+abc? matches a string that has ab followed by zero or one c
+abc{2} maches a string that has ab followed by 2 c
+abc{2, } two or more c
+abc {2, 5} two to five c
+a(bc)* a followed by zero or more bc
+a(b|c) || a[bc] a followed by b or c 
+
+
+
+
+
+
+
+
+https://regexr.com/ cheatsheet:
+
+
+
