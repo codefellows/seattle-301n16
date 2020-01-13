@@ -165,10 +165,20 @@ a(b|c) || a[bc] a followed by b or c
 
 
 
-
-
-
 https://regexr.com/ cheatsheet:
+
+
+
+
+
+
+## Reading 4 Heroku
+
+Heroku is a hosting service, allowing the user to build their own unique websites and deploy for free, including with a unique domain name.  
+
+Heroku can be deployed locally while developing the site. 
+
+Dynos are used to deploy the site and unless account holder has upgraded, the dyno will time out after 30 minutes of inactivity on the site. The user will have to wait for it to reload if they have kept the page open and have not been active for more than 30 minutes. 
 
 
 
