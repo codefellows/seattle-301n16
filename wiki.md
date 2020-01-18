@@ -181,4 +181,13 @@ Heroku can be deployed locally while developing the site.
 Dynos are used to deploy the site and unless account holder has upgraded, the dyno will time out after 30 minutes of inactivity on the site. The user will have to wait for it to reload if they have kept the page open and have not been active for more than 30 minutes. 
 
 
+## Read 5 Node JS
+Resources: https://www.sitepoint.com/an-introduction-to-node-js/
+
+Node is great for building applications that require collaboration: chat sites, live joint editing... Or for building APIs that handle a lot of requests and O/I situations.
+
+Node works wonderfully with JSON files and is a JS language so developers can easily and quickly move between the languages and data bases. 
+
+
+
 
