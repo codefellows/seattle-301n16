@@ -191,3 +191,12 @@ Node works wonderfully with JSON files and is a JS language so developers can ea
 
 
 
+
+### Read 7: 
+
+APIs: As far as I can tell, working with APIs is like training a donkey to fetch things for you and return them to the folks who asked for them. 
+
+Suddenly, we can build these deeply dynamic webpages. I am so excited. 
+
+
+
