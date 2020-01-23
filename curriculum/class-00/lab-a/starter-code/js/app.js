@@ -36,14 +36,22 @@ function displayPics() {
     }
   }
   // console.log(rando);
+
   // after i changed all var to const the code get's break, but once i change the increment values, the for loop  and the image array to let it works. what i understand from let and const is we can always give const to the value that they are not going to chage throu out the whole process of functioning. 
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `let`.
 
+
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
+>>>>>>> 5add55f0b83e2a2064d6b7fdb393ce7978a2b26f
   // PUT YOUR RESPONSE IN THIS COMMENT
   console.log(viewed);
 
   for (let i = 0; i < 3; i++) {
+<<<<<<< HEAD
     let temp = viewed.shift();
+=======
+    const temp = viewed.shift();
+>>>>>>> 5add55f0b83e2a2064d6b7fdb393ce7978a2b26f
     pics[i].src = allProducts[temp].path;
     pics[i].id = allProducts[temp].name;
     allProducts[temp].views += 1;
@@ -64,7 +72,7 @@ function handleClick(event) {
   for (let i = 0; i < names.length; i++) {
     if (event.target.id === allProducts[i].name) {
       allProducts[i].votes += 1;
-      console.log(event.target.id + ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views');
+      console.log`${event.target.id}  has  ${allProducts[i].votes}  votes in  ${allProducts[i].views}  views`;
     }
   }
   localStorage.busmall = JSON.stringify(allProducts);
@@ -75,7 +83,11 @@ function handleClick(event) {
 function showList() {
   for (let i = 0; i < allProducts.length; i++) {
     const liEl = document.createElement('li');
+<<<<<<< HEAD
     liEl.textContent = allProducts[i].name + ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views';
+=======
+    liEl.textContent = `${allProducts[i].name} has ${allProducts[i].votes} votes in ${allProducts[i].views} views`;
+>>>>>>> 5add55f0b83e2a2064d6b7fdb393ce7978a2b26f
     list.appendChild(liEl);
   }
 }
@@ -90,7 +102,11 @@ function makeChartData() {
 
 function makeChart() {
   makeChartData();
+<<<<<<< HEAD
   let ctx = document.getElementById('chartypants').getContext('2d');
+=======
+  const ctx = document.getElementById('chartypants').getContext('2d');
+>>>>>>> 5add55f0b83e2a2064d6b7fdb393ce7978a2b26f
   new Chart(ctx, { //eslint-disable-line
     type: 'bar',
     data: {
@@ -126,10 +142,17 @@ document.getElementById('bus').addEventListener('click', function () {
 });
 
 if (localStorage.busmall) {
+<<<<<<< HEAD
   console.log('Local storage data exists');
   allProducts = JSON.parse(localStorage.busmall);
 } else {
   console.log('There is no local storage data; initialize app by creating instances');
+=======
+  console.log`Local storage data exists`;
+  allProducts = JSON.parse(localStorage.busmall);
+} else {
+  console.log`There is no local storage data; initialize app by creating instances`;
+>>>>>>> 5add55f0b83e2a2064d6b7fdb393ce7978a2b26f
   for (let i = 0; i < names.length; i++) {
     new Product(names[i]);
   }
