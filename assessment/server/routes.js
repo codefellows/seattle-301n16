@@ -33,7 +33,7 @@ function soHandlebars(character) {
   $('.characters2').html(smooshThings);
 }
 
-
+// I'm so lost in this right now. I'm fairly certain Handlebars was the lecture that never happened and jQuery was one lecture a month and a half ago. 
 function moreCharactersPlease () {
   fetchCharactersFromSWAPI()
   .then(response => {
