@@ -6,6 +6,7 @@
 const express = require('express');
 // Create an application using express
 const app = express();
+const handlebars = require("handlebars");
 
 // CORS (Cross Origin Resource Sharing) to allow (or deny) access to any web server or client
 const cors = require('cors');

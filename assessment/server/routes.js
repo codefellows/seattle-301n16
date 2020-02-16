@@ -20,6 +20,30 @@ function homePageHandler(req, res) {
     .catch(error => { throw error; });
 }
 
+
+//an attempt to make handlebars work
+
+function soHandlebars(character) {
+  let characterTemplate = $('#getMore').html();
+
+  let getInfo = Handlebars.compile(characterTemplate);
+
+  let smooshThings = getInfo(character);
+
+  $('.characters2').html(smooshThings);
+}
+
+
+function moreCharactersPlease () {
+  fetchCharactersFromSWAPI()
+  .then(response => {
+    
+  })
+}
+
+
+
+
 // Use superagent to get the star wars characters, by page
 function fetchCharactersFromSWAPI(pageNumber) {
   // Note that the function(s) that use this helper function
@@ -32,7 +56,7 @@ function fetchCharactersFromSWAPI(pageNumber) {
       // After we get the data from the remote API, go to the
       // Database and add the number of "likes" for each character
       // from our database, if there are any
-      return getNumberOfLikes(response.body)
+      return getNumberOfLikes(response.body);
     })
     .catch(error => { throw error; });
 }

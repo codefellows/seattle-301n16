@@ -1,13 +1,13 @@
-html, body {
+/* html, body {
     height: 100vh;
     width: 100vw;
 }
 
 body {
     background: #f5f5f5;
-}
+} */
 
-body > header {
+/* body > header {
     background: #111;
     box-shadow: 0px 15px 10px -15px #111;
     color: #eee;
@@ -21,19 +21,19 @@ footer {
     height: 4em;
     line-height: 4em;
     text-align: center;
-}
+} */
 
-h1 {
+/* h1 {
     font-size: 1.5em;
-}
+} */
 
-main {
+/* main {
     overflow: auto;
     margin: 2em 0;
     padding: 0 2em;
-}
+} */
 
-.characters {
+/* .characters {
     width: auto;
 }
 
@@ -62,4 +62,4 @@ main {
     display: block;
     margin: .5em auto;
     width: 50%;
-}
+} */
